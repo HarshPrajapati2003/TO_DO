@@ -1,0 +1,6 @@
+@media (max-width:500px) {
+    .center_div{
+        width: 20rem;
+        height: 40rem;
+    }
+}

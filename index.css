@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+::-webkit-scrollbar{
+    width:7px;
+}
+
+::-webkit-scrollbar-track{
+    background-color: transparent;
+}
+::-webkit-scrollbar-thumb{
+    background-color:rgb(249, 33, 173) ;
+    border-radius: 20px;
+}
+input{
+    padding: 5px 10px;
+    margin-left: 2rem;
+    background-color: white;
+    border-bottom:3px solid black;
+    border-top: 2px solid white;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    border-radius: 2px;
+    font-size: 20px;
+    width: 65%;
+    padding-bottom: 10px;
+    text-align: center;
+    outline: none;
+}
+#plus{
+    position: relative;
+    display: inline-block;
+    background-color: rgb(249, 33, 173) ;
+    font-size: 35px;
+    width: 50px;
+    height: 50px;  
+    margin: 0px 0px 0px 15px;  
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+
+}
+#sp{
+    right:10px;
+    bottom: 1px;
+    position: absolute;
+}
+.parent{
+    background-color: white;
+    padding: 10px;
+    border-radius: 18px;
+    box-shadow: 4px 4px 4px black;
+}
+.main_div{ 
+    
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color:rgb(41, 101, 205);
+    gap: 30px;
+}
+.center_div{
+    width: 25rem;
+    height: 40rem;
+    background-color: white;
+    border-radius: 18px;
+    box-shadow: 5px 5px 15px -5px black;
+    border-color: transparent;
+}
+
+
+h1{
+    padding: 7px 0px;
+    font-weight: bold;
+    color:white;
+    text-align: center;
+    background-color:  rgb(249, 33, 173);
+    /* border-top: 5px solid rgb(41, 101, 205);
+    border-bottom: 5px solid rgb(41, 101, 205); */
+
+}
+button{
+    background-color: orange;
+    color: rgb(19, 17, 17);
+    padding: 8px;
+    font-size: 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    text-shadow: 1.5px 1.5px 1.5px rgb(8, 7, 7);
+}
+
+#plus:hover{
+    background-color: rgb(8, 193, 8);
+}
+#ol{
+    padding: 20px 0px 0px 0px ;
+    background-color: white;
+    list-style: '▶️' ;
+    
+}
+.ole{
+    height: 460px;
+    overflow: scroll;
+    overflow-x: hidden;
+    margin-right: 20px;
+    background-color: white;
+}
+li{
+    background-color: rgb(246, 226, 12);
+    font-size: 20px;
+    margin: 10px 10px 15px 60px;
+    padding-left: 15px;
+    border-radius: 9px;
+}
+
+.ff{
+    margin-top: 2px;
+    margin-right: 6px;
+    background-color: red;
+    padding: 3px;
+    border-radius: 50%;
+    color: white;
+}
+.ff:hover{
+    background-color: rgb(8, 193, 8);
+}
+
